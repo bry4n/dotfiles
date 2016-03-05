@@ -18,7 +18,7 @@ fi
 
 # Bash aliases
 if [ -f ~/.bash_aliases ]; then
-  source ~/.bash_aliase
+  source ~/.bash_aliases
 fi
 
 # Sensitive information won't be in git

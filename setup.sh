@@ -7,8 +7,8 @@ if [ ! -d /usr/local/Cellar ]; then
 fi
 
 brew update
-brew install go nvm pyenv rbenv redis postgres bash-completion vim weechat wget curl git ack the_silver_searcher elinks mutt
-brew cask install google-chrome caffine flux alfred iterm2 virtualbox vagrant
+brew tap Homebrew/bundle
+brew bundle
 brew doctor
 
 cp .bash* ~/

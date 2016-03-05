@@ -1,0 +1,32 @@
+cask_args appdir: '/Applications'
+tap 'caskroom/cask'
+tap 'citguy/cask'
+
+brew 'go'
+brew 'nvm'
+brew 'pyenv'
+brew 'rbenv'
+brew 'bash-completion'
+brew 'vim'
+brew 'wget'
+brew 'curl'
+brew 'git'
+brew 'ack'
+brew 'the_silver_searcher'
+brew 'elinks'
+brew 'mutt'
+brew 'weechat', args: ['with-lua', 'with-ruby', 'with-python', 'with-javascript', 'with-perl']
+
+brew 'selenium-server-standalone'
+brew 'redis'
+brew 'postgres'
+brew 'mongodb'
+
+
+cask 'google-chrome'
+cask 'caffeine'
+cask 'flux'
+cask 'alfred'
+cask 'iterm2'
+cask 'virtualbox'
+cask 'vagrant'
